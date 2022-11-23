@@ -6,13 +6,13 @@
     --glb-font-family:'Roboto', sans-serif;
     --glb-font-color-light:white;
     --glb-font-color-dark:black  ;
-    --gob-font-size:14px;
+    --glb-font-size:14px;
 }
 
 body{
     font-family: var(--glb-font-family);
     color:var(--glb-font-color-dark);
-    font-size: var(--gob-font-size);
+    font-size: var(--glb-font-size);
     font-weight: 400;
 }
 
