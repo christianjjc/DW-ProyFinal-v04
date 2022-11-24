@@ -3,6 +3,7 @@
 
 :root{
     --glb-brand-color01:#cf8827;
+    --glb-brand-color01-opacity:rgba(207, 134, 39, 0.75);
     /* --glb-brand-color01:rgb(207,133,39); */
     --glb-font-family:'Roboto', sans-serif;
     --glb-font-color-light:white;
@@ -17,6 +18,11 @@ body{
     font-weight: 400;
 }
 
+section {
+    /* scroll-padding-top: 100px; */
+    scroll-margin-top: 130px;
+  }
+
 .img__logo{
     height: 40px;
 }
@@ -24,7 +30,6 @@ body{
 .img__logo--footer{
     height: 25px;
 }
-
 
 .no-padding {
     padding: 0;
@@ -39,14 +44,18 @@ body{
     height: 350px;
 }
 
-.color__moro{
+.color__moro--bg{
     background-color: var(--glb-brand-color01);
 }
 
-.color__moro--opacity{
-    background-color:rgba(207, 134, 39, 0.3);
+.color__moro--border{
+    border-color: var(--glb-brand-color01);
 }
 
-.a__hover--color-moro:hover  {
-    color: var(--glb-brand-color01) !important;
+.color__moro--a:hover  {
+    color: var(--glb-brand-color01) !important ;
+}
+
+.color__moro--btnhover:hover  {
+    background-color: var(--glb-brand-color01-opacity);
 }
