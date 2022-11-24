@@ -17,9 +17,14 @@ body{
     font-weight: 400;
 }
 
-.header__logo{
+.img__logo{
+    height: 40px;
+}
+
+.img__logo--footer{
     height: 25px;
 }
+
 
 .no-padding {
     padding: 0;
