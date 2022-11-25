@@ -8,9 +8,10 @@
     --glb-font-family:'Roboto', sans-serif;
     --glb-font-color-light:white;
     --glb-font-color-dark:black  ;
+    --glb-font-color-footer:  rgba(0, 0, 0, 0.05);
     --glb-font-size:14px;
 }
-
+ 
 body{
     font-family: var(--glb-font-family);
     color:var(--glb-font-color-dark);
@@ -18,7 +19,12 @@ body{
     font-weight: 400;
 }
 
-section {
+#section__servicios {
+    /* scroll-padding-top: 100px; */
+    scroll-margin-top: 130px;
+  }
+
+#section__proyectos {
     /* scroll-padding-top: 100px; */
     scroll-margin-top: 130px;
   }
@@ -58,4 +64,8 @@ section {
 
 .color__moro--btnhover:hover  {
     background-color: var(--glb-brand-color01-opacity);
+}
+
+.derechos_autor{
+    background-color:var(--glb-font-color-footer);
 }
