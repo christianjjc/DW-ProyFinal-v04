@@ -37,6 +37,11 @@ body{
     height: 25px;
 }
 
+.img__logo--eurocert{
+    width:100px;
+}
+
+
 .no-padding {
     padding: 0;
   }
