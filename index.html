@@ -19,269 +19,270 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header class="header position-sticky top-0">
-        <div class="container">
-            <div class="row navbar navbar-dark bg-dark">
-                <nav class="col-md-9 col-lg-9 col-xl-9 text-center text-md-start text-lg-start text-xl-start">
-                    <div class="container-fluid">
-                        <span class="navbar-brand mb-0 h1">
-                            <a class="text-reset text-decoration-none" href="#"><img class="img__logo" src="./img/logomoro.svg" alt="logo"></a>
-                        </span>
-                    </div>
-                </nav>
-                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 text-end text-light d-none d-sm-none d-md-block">
-                    <a class="text-reset me-2 color__moro--a" href="#"><i class="bi bi-linkedin fs-6"></i></a>
-                    <a class="text-reset me-2 color__moro--a" href="#"><i class="bi bi-facebook fs-6"></i></a>
-                    <a class="text-reset me-2 color__moro--a" href="#"><i class="bi bi-youtube fs-6"></i></a>
-                    <a class="text-reset me-2 color__moro--a" href="#"><i class="bi bi-instagram fs-6"></i></a>
-                    <span class="fs-6 me-2">|</span>
-                    <a class="text-reset color__moro--a" href="#"><i class="bi bi-whatsapp fs-6"></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <nav class="navbar navbar-expand-md bg-white ">
-                    <div class="container-fluid">
-                        <!-- <a class="navbar-brand fs-6" href="#">Inicio</a> -->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse  mt-3 mt-sm-3 mt-md-3 mt-lg-0  mt-xl-0 " id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="fs-6 nav-link active border-bottom border-opacity-25 color__moro--btnhover mx-1 px-2" aria-current="page" href="#">Nosotros</a>
-                                <a class="fs-6 nav-link active border-bottom border-opacity-25 color__moro--btnhover mx-1 px-2" aria-current="page" href="#section__servicios">Servicios</a>
-                                <a class="fs-6 nav-link active border-bottom border-opacity-25 color__moro--btnhover mx-1 px-2" aria-current="page" href="#section__proyectos">Proyectos</a>
-                                <a class="fs-6 nav-link active border-bottom border-opacity-25 color__moro--btnhover mx-1 px-2" aria-current="page" href="#">Contacto</a>
-                            </div>
+    <!-- <div class="parallax"> -->
+        <header class="header position-sticky top-0 opacity-full">
+            <div class="container">
+                <div class="row navbar navbar-dark bg-dark">
+                    <nav class="col-md-9 col-lg-9 col-xl-9 text-center text-md-start text-lg-start text-xl-start">
+                        <div class="container-fluid">
+                            <span class="navbar-brand mb-0 h1">
+                                <a class="text-reset text-decoration-none" href="#"><img class="img__logo" src="./img/logomoro.svg" alt="logo"></a>
+                            </span>
                         </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <main class="main">
-        <!-- Portada y título para moviles -->
-        <section id="section__copy">
-            <div class="container no-padding">
-                <div class="d-sm-block d-md-none d-lg-none d-xl-none py-2 px-1">
-                    <div class="pb-2">
-                        <img src="./img/big/imgbig15.jpg" class="d-block w-100 p-1 border border-1 rounded" alt="portada">
-                    </div>
-                    <p class="display-1">Proyectos de ingeniería y construcción de carreteras a nivel nacional</p>
-                    <hr class="color__moro--border border border-3">
-                    <p class="lead">Pioneros en la industria de la producción de mezclas asfálticas en Lima Metropolitana. Contamos con personal técnico altamente capacitado, quienes junto a nuestra moderna flota de equipos y maquinaria pesada garantizan un servicio de excelente calidad.</p>
-                </div>
-            </div>
-        </section>
-        <!-- Portada y título para pantalla mas grandes -->
-        <section id="section__slideshow" class="d-none d-md-block">
-            <div class="container no-padding ">
-                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
-                    <!-- <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div> -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./img/big/imgbig15.jpg" class="d-block w-100 p-1 border border-1 rounded" alt="portada">
-                            <div class="carousel-caption col-6 d-none d-md-none d-lg-none d-xl-block d-xxl-block text-start">
-                                <span class="display-1 lh-1">Proyectos de ingeniería y construcción de carreteras a nivel nacional</span>
-                                <span class="lead lh-2"><p>Pioneros en la industria de la producción de mezclas asfálticas en Lima Metropolitana. Contamos con personal técnico altamente capacitado, quienes junto a nuestra moderna flota de equipos y maquinaria pesada garantizan un servicio de excelente calidad.</p></span>
-                            </div>
-                            <div class="carousel-caption col-8 d-block d-md-block d-lg-block d-xl-none d-xxl-none text-start">
-                                <span class="display-4 lh-1">Proyectos de ingeniería y construcción de carreteras a nivel nacional</span>
-                                <span class="fs-6"><p>Pioneros en la industria de la producción de mezclas asfálticas en Lima Metropolitana. Contamos con personal técnico altamente capacitado, quienes junto a nuestra moderna flota de equipos y maquinaria pesada garantizan un servicio de excelente calidad.</p></span>
-                            </div>
-                        </div>
-                        <!-- <div class="carousel-item">
-                            <img src="./img/big/imgbig08.jpg" class="d-block w-100 p-1 border border-1 rounded" alt="...">
-                            <div class="carousel-caption col-6 d-none d-md-none d-lg-block d-xl-block d-xxl-block text-start">
-                                <span class="display-2">Proyectos de ingeniería y construcción de carreteras a nivel nacional</span>
-                                <span class="lead"><p>Pioneros en la industria de la producción de mezclas asfálticas en Lima Metropolitana. Contamos con personal técnico altamente capacitado, quienes junto a nuestra moderna flota de equipos y maquinaria pesada garantizan un servicio de excelente calidad.</p></span>
-                            </div>
-                            <div class="carousel-caption col-6 d-block d-md-block d-lg-none d-xl-none d-xxl-none text-start">
-                                <span class="fs-1 fw-bold">Proyectos de ingeniería y construcción de carreteras a nivel nacional</span>
-                                <span class="fs-6 fw-normal"><p>Pioneros en la industria de la producción de mezclas asfálticas en Lima Metropolitana. Contamos con personal técnico altamente capacitado, quienes junto a nuestra moderna flota de equipos y maquinaria pesada garantizan un servicio de excelente calidad.</p></span>
-                            </div>
-                        </div> -->
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button> -->
-                </div>
-            </div>
-        </section>
-        <section id="section__servicios">
-            <div class="container no-padding">
-                <div class="row mx-1 my-2">
-                    <div class="col-12 bg-dark text-light text-center py-3">
-                        <span class="display-5 text-uppercase">Nuestros Servicios</span>
+                    </nav>
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 text-end text-light d-none d-sm-none d-md-block">
+                        <a class="text-reset me-2 color__moro--a" href="#"><i class="bi bi-linkedin fs-6"></i></a>
+                        <a class="text-reset me-2 color__moro--a" href="#"><i class="bi bi-facebook fs-6"></i></a>
+                        <a class="text-reset me-2 color__moro--a" href="#"><i class="bi bi-youtube fs-6"></i></a>
+                        <a class="text-reset me-2 color__moro--a" href="#"><i class="bi bi-instagram fs-6"></i></a>
+                        <span class="fs-6 me-2">|</span>
+                        <a class="text-reset color__moro--a" href="#"><i class="bi bi-whatsapp fs-6"></i></a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="d-flex flex-wrap justify-content-between mt-2">
-                        <div class="card p-1 col-sm-12 col-md-6 col-xl-3 myxs-1  my-sm-1 border-0">
-                            <img src="./img/big/imgbig12.jpg" class="card-img-top" alt="...">
-                            <div class="card-body d-flex flex-column justify-content-between">
-                                <div class="row">
-                                    <p class="card-title h4">Pavimentación</p>
-                                    <p class="card-text text-break h6 fw-normal">Somos especialistas en la producción de mezcla asfáltica o concreto asfáltico modificado, la colocación de mezcla y la rehabilitación de pavimentos.</p>
-                                </div>
-                                <div class="border-top pt-1">
-                                    <a href="#" class="btn color__moro--bg color__moro--btnhover text-light btn-sm" role="button">Ver más...</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card p-1 col-sm-12 col-md-6 col-xl-3 myxs-1 my-sm-1 border-0">
-                            <img src="./img/big/imgbig07.jpg" class="card-img-top" alt="...">
-                            <div class="card-body d-flex flex-column justify-content-between">
-                                <div class="row">
-                                    <p class="card-title h4">Obras Viales</p>
-                                    <p class="card-text text-break h6 fw-normal">Nos especializamos en la construcción, pavimentación y mantenimiento de vías urbanas y carreteras.</p>
-                                </div>
-                                <div class="border-top pt-1">
-                                    <a href="#" class="btn color__moro--bg color__moro--btnhover text-light btn-sm" role="button">Ver más...</a>
+                    <nav class="navbar navbar-expand-md bg-white ">
+                        <div class="container-fluid">
+                            <!-- <a class="navbar-brand fs-6" href="#">Inicio</a> -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse  mt-3 mt-sm-3 mt-md-3 mt-lg-0  mt-xl-0 " id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="fs-6 nav-link active border-bottom border-opacity-25 color__moro--btnhover mx-1 px-2" aria-current="page" href="#">Nosotros</a>
+                                    <a class="fs-6 nav-link active border-bottom border-opacity-25 color__moro--btnhover mx-1 px-2" aria-current="page" href="#section__servicios">Servicios</a>
+                                    <a class="fs-6 nav-link active border-bottom border-opacity-25 color__moro--btnhover mx-1 px-2" aria-current="page" href="#section__proyectos">Proyectos</a>
+                                    <a class="fs-6 nav-link active border-bottom border-opacity-25 color__moro--btnhover mx-1 px-2" aria-current="page" href="#">Contacto</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="card p-1 col-sm-12 col-md-6 col-xl-3 myxs-1 my-sm-1 border-0">
-                            <img src="./img/big/imgbig03.jpg" class="card-img-top" alt="...">
-                            <div class="card-body d-flex flex-column justify-content-between">
-                                <div class="row">
-                                    <p class="card-title h4">Alquiler de Maquinária y Equipos</p>
-                                    <p class="card-text text-break h6 fw-normal">Renovamos nuestro pool de equipos de manera constante, para contar con aquellos de última generación.</p>
-                                </div>
-                                <div class="border-top pt-1">
-                                    <a href="#" class="btn color__moro--bg color__moro--btnhover text-light btn-sm" role="button">Ver más...</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card p-1 col-sm-12 col-md-6 col-xl-3 myxs-1 my-sm-1 border-0">
-                            <img src="./img/big/imgbig05.jpg" class="card-img-top" alt="...">
-                            <div class="card-body d-flex flex-column justify-content-between">
-                                <div class="row">
-                                    <p class="card-title h4">Edificaciones</p>
-                                    <p class="card-text text-break h6 fw-normal">Desarrollamos edificaciones de distintos tipos, en muchas ciudades del país y con altos estándares de calidad.</p>
-                                </div>
-                                <div class="border-top pt-1">
-                                    <a href="#" class="btn color__moro--bg color__moro--btnhover text-light btn-sm" role="button">Ver más...</a>
-                                </div>        
-                            </div>
-                        </div>
-                    </div>
+                    </nav>
                 </div>
             </div>
-        </section>
-        <section id="section__proyectos">
-            <div class="container no-padding mt-2">
-                <div class="row mx-1 my-2">
-                    <div class="col-12 bg-dark text-light text-center py-3">
-                        <span class="display-5 text-uppercase">Proyectos</span>
+        </header>
+        <main class="main">
+            <!-- Portada y título para moviles -->
+            <section id="section__copy">
+                <div class="container no-padding">
+                    <div class="d-sm-block d-md-none d-lg-none d-xl-none py-2 px-1">
+                        <div class="pb-2">
+                            <img src="./img/big/imgbig15.jpg" class="d-block w-100 p-1 border border-1 rounded" alt="portada">
+                        </div>
+                        <p class="display-1">Proyectos de ingeniería y construcción de carreteras a nivel nacional</p>
+                        <hr class="color__moro--border border border-3">
+                        <p class="lead">Pioneros en la industria de la producción de mezclas asfálticas en Lima Metropolitana. Contamos con personal técnico altamente capacitado, quienes junto a nuestra moderna flota de equipos y maquinaria pesada garantizan un servicio de excelente calidad.</p>
                     </div>
                 </div>
-                <div class="row d-flex flex-wrap bg-none my-2 ">
-                    <div class="card col-sm-12 col-md-12 col-xl-6 border-0 mx-0  mt-sm-2 mb-sm-1 my-md-3 my-lg-3 my-xl-3 bg-none">
-                        <div class="card-header color__moro--bg text-light ">
-                            Renovación de carpeta asfáltica
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title h4">Proyecto - El Agustino</h5>
-                            <p class="card-text text-break">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde quisquam natus nobis tempora deserunt hic modi. Vero, rerum nam. Voluptatem labore perspiciatis debitis corrupti id alias quis, nemo nisi dolor nihil at harum placeat perferendis tenetur ipsam vero molestiae distinctio.</p>
-                            <div>
-                                <iframe class="video__youtube img-fluid p-1 border" src="https://www.youtube.com/embed/X3q_iqI2x1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <!-- Portada y título para pantalla mas grandes -->
+            <section id="section__slideshow" class="d-none d-md-block">
+                <div class="container no-padding ">
+                    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+                        <!-- <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div> -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/big/imgbig15.jpg" class="d-block w-100 p-1 border border-1 rounded" alt="portada">
+                                <div class="carousel-caption col-6 d-none d-md-none d-lg-none d-xl-block d-xxl-block text-start">
+                                    <span class="display-1 lh-1">Proyectos de ingeniería y construcción de carreteras a nivel nacional</span>
+                                    <span class="lead lh-2"><p>Pioneros en la industria de la producción de mezclas asfálticas en Lima Metropolitana. Contamos con personal técnico altamente capacitado, quienes junto a nuestra moderna flota de equipos y maquinaria pesada garantizan un servicio de excelente calidad.</p></span>
+                                </div>
+                                <div class="carousel-caption col-8 d-block d-md-block d-lg-block d-xl-none d-xxl-none text-start">
+                                    <span class="display-4 lh-1">Proyectos de ingeniería y construcción de carreteras a nivel nacional</span>
+                                    <span class="fs-6"><p>Pioneros en la industria de la producción de mezclas asfálticas en Lima Metropolitana. Contamos con personal técnico altamente capacitado, quienes junto a nuestra moderna flota de equipos y maquinaria pesada garantizan un servicio de excelente calidad.</p></span>
+                                </div>
                             </div>
+                            <!-- <div class="carousel-item">
+                                <img src="./img/big/imgbig08.jpg" class="d-block w-100 p-1 border border-1 rounded" alt="...">
+                                <div class="carousel-caption col-6 d-none d-md-none d-lg-block d-xl-block d-xxl-block text-start">
+                                    <span class="display-2">Proyectos de ingeniería y construcción de carreteras a nivel nacional</span>
+                                    <span class="lead"><p>Pioneros en la industria de la producción de mezclas asfálticas en Lima Metropolitana. Contamos con personal técnico altamente capacitado, quienes junto a nuestra moderna flota de equipos y maquinaria pesada garantizan un servicio de excelente calidad.</p></span>
+                                </div>
+                                <div class="carousel-caption col-6 d-block d-md-block d-lg-none d-xl-none d-xxl-none text-start">
+                                    <span class="fs-1 fw-bold">Proyectos de ingeniería y construcción de carreteras a nivel nacional</span>
+                                    <span class="fs-6 fw-normal"><p>Pioneros en la industria de la producción de mezclas asfálticas en Lima Metropolitana. Contamos con personal técnico altamente capacitado, quienes junto a nuestra moderna flota de equipos y maquinaria pesada garantizan un servicio de excelente calidad.</p></span>
+                                </div>
+                            </div> -->
                         </div>
-                    </div>
-                    <div class="card col-sm-12 col-md-12 col-xl-6 border-0 mx-0 mt-sm-1 mb-sm-3 my-md-3 my-lg-3 my-xl-3 bg-none">
-                        <div class="card-header color__moro--bg text-light ">
-                            Estabilización de suelos y colocación de carpeta asfáltica
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title h4">Proyecto - Av. Costanera</h5>
-                            <p class="card-text text-break">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde quisquam natus nobis tempora deserunt hic modi. Vero, rerum nam. Voluptatem labore perspiciatis debitis corrupti id alias quis, nemo nisi dolor nihil at harum placeat perferendis tenetur ipsam vero molestiae distinctio.</p>
-                            <div>
-                                <iframe class="video__youtube img-fluid p-1 border" src="https://www.youtube.com/embed/VFBsMXCuVss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button> -->
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="row text-center text-lg-start bg-dark text-light ">
-                <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
-                    <div class="me-5 d-none d-lg-block">
-                        <span>Mantente en contacto con nosotros a través de nuestras redes sociales:</span>
+            </section>
+            <section id="section__servicios">
+                <div class="container no-padding">
+                    <div class="row mx-1 my-2">
+                        <div class="col-12 bg-dark text-light text-center py-3">
+                            <span class="display-5">Nuestros Servicios</span>
+                        </div>
                     </div>
-                    <div>
-                        <a href="#" class="me-4 text-reset color__moro--a"><i class="bi bi-linkedin fs-6"></i></a>
-                        <a href="#" class="me-4 text-reset color__moro--a"><i class="bi bi-facebook fs-6"></i></a>
-                        <a href="#" class="me-4 text-reset color__moro--a"><i class="bi bi-youtube fs-6"></i></a>
-                        <a href="#" class="me-4 text-reset color__moro--a"><i class="bi bi-instagram fs-6"></i></a>
-                        <a href="#" class="me-4 text-reset color__moro--a"><i class="bi bi-whatsapp fs-6"></i></a>
-                    </div>
-
-                </section>
-                <section class="">
-                    <div class="container text-center text-md-start mt-5">
-                        <div class="row mt-3">
-                            <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-4">
-                                <a class="text-reset text-decoration-none" href="#">
-                                    <img class="img__logo--footer" src="./img/logomoro.svg" alt="logo">
-                                </a><br><br>
-                                <p>
-                                    <div class="sub-description">
-                                        Somos una empresa constructora que busca aportar al crecimiento y desarrollo de la sociedad. Contamos con las
-                                        certificaciones:<br><br>
-                                        - ISO 9001:2015<br>
-                                        - ISO 14001:2015<br>
-                                        - OHSAS 18001:2007<br>
-                                        - ELOT ISO 37001:2017 (ISO 37001:2016)<br>
-                                        <br>
-                                        <a target="_blank" href="https://drive.google.com/file/d/1c2OqerEMTM-D_zCBYTvklLNzrVjrxfoP/view?usp=sharing">
-                                            <img class="img__logo--eurocert"  alt="logoeurocert" src="./img/logoeurocert.svg">
-                                        </a>
+                    <div class="row">
+                        <div class="d-flex flex-wrap justify-content-between mt-2">
+                            <div class="card p-1 col-sm-12 col-md-6 col-xl-3 myxs-1  my-sm-1 border-0">
+                                <img src="./img/big/imgbig12.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div class="row">
+                                        <p class="card-title h4">Pavimentación</p>
+                                        <p class="card-text text-break h6 fw-normal">Somos especialistas en la producción de mezcla asfáltica o concreto asfáltico modificado, la colocación de mezcla y la rehabilitación de pavimentos.</p>
                                     </div>
-                                </p>
+                                    <div class="border-top pt-1">
+                                        <a href="#" class="btn color__moro--bg color__moro--btnhover text-light btn-sm" role="button">Ver más...</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
-                                <h6 class="text-uppercase fw-bold mb-4">Servicios</h6>
-                                <p><a href="#" class="text-reset">Pavimentación</a></p>
-                                <p><a href="#" class="text-reset">Obras Viales</a></p>
-                                <p><a href="#" class="text-reset">Alquiler de Maquinária</a></p>
-                                <p><a href="#" class="text-reset">Edificaciones</a></p>
+                            <div class="card p-1 col-sm-12 col-md-6 col-xl-3 myxs-1 my-sm-1 border-0">
+                                <img src="./img/big/imgbig07.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div class="row">
+                                        <p class="card-title h4">Obras Viales</p>
+                                        <p class="card-text text-break h6 fw-normal">Nos especializamos en la construcción, pavimentación y mantenimiento de vías urbanas y carreteras.</p>
+                                    </div>
+                                    <div class="border-top pt-1">
+                                        <a href="#" class="btn color__moro--bg color__moro--btnhover text-light btn-sm" role="button">Ver más...</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
-                                <p><i class="bi bi-house-door-fill fs-6"></i> Av. Mariátegui 446 int 201, Jesús María</p>
-                                <p><i class="bi bi-mailbox2 fs-6"></i> ZIP Code: 15072</p>
-                                <p><i class="bi bi-envelope-at-fill fs-6"></i> contacto@moro.com.pe</p>
-                                <p><i class="bi bi-telephone-fill fs-6"></i> +(511) 888-0551</p>
+                            <div class="card p-1 col-sm-12 col-md-6 col-xl-3 myxs-1 my-sm-1 border-0">
+                                <img src="./img/big/imgbig03.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div class="row">
+                                        <p class="card-title h4">Alquiler de Maquinária y Equipos</p>
+                                        <p class="card-text text-break h6 fw-normal">Renovamos nuestro pool de equipos de manera constante, para contar con aquellos de última generación.</p>
+                                    </div>
+                                    <div class="border-top pt-1">
+                                        <a href="#" class="btn color__moro--bg color__moro--btnhover text-light btn-sm" role="button">Ver más...</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card p-1 col-sm-12 col-md-6 col-xl-3 myxs-1 my-sm-1 border-0">
+                                <img src="./img/big/imgbig05.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div class="row">
+                                        <p class="card-title h4">Edificaciones</p>
+                                        <p class="card-text text-break h6 fw-normal">Desarrollamos edificaciones de distintos tipos, en muchas ciudades del país y con altos estándares de calidad.</p>
+                                    </div>
+                                    <div class="border-top pt-1">
+                                        <a href="#" class="btn color__moro--bg color__moro--btnhover text-light btn-sm" role="button">Ver más...</a>
+                                    </div>        
+                                </div>
                             </div>
                         </div>
                     </div>
-                </section>
-                <div class="text-center p-4 derechos_autor">
-                    © 2022 Todos los derechos reservados. Diseñado por
-                    <a class="text-reset fw-bold text-decoration-none color__moro--a" href="#">CJJC</a>
                 </div>
+            </section>
+            <section id="section__proyectos">
+                <div class="container no-padding mt-2">
+                    <div class="row mx-1 my-2">
+                        <div class="col-12 bg-dark text-light text-center py-3">
+                            <span class="display-5">Proyectos Realizados</span>
+                        </div>
+                    </div>
+                    <div class="row d-flex flex-wrap bg-none my-2 ">
+                        <div class="card col-sm-12 col-md-12 col-xl-6 border-0 mx-0  mt-sm-2 mb-sm-1 my-md-3 my-lg-3 my-xl-3 bg-none">
+                            <div class="card-header color__moro--bg text-light ">
+                                Renovación de carpeta asfáltica
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title h4">Proyecto - El Agustino</h5>
+                                <p class="card-text text-break">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde quisquam natus nobis tempora deserunt hic modi. Vero, rerum nam. Voluptatem labore perspiciatis debitis corrupti id alias quis, nemo nisi dolor nihil at harum placeat perferendis tenetur ipsam vero molestiae distinctio.</p>
+                                <div>
+                                    <iframe class="video__youtube img-fluid p-1 border" src="https://www.youtube.com/embed/X3q_iqI2x1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card col-sm-12 col-md-12 col-xl-6 border-0 mx-0 mt-sm-1 mb-sm-3 my-md-3 my-lg-3 my-xl-3 bg-none">
+                            <div class="card-header color__moro--bg text-light ">
+                                Estabilización de suelos y colocación de carpeta asfáltica
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title h4">Proyecto - Av. Costanera</h5>
+                                <p class="card-text text-break">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, unde quisquam natus nobis tempora deserunt hic modi. Vero, rerum nam. Voluptatem labore perspiciatis debitis corrupti id alias quis, nemo nisi dolor nihil at harum placeat perferendis tenetur ipsam vero molestiae distinctio.</p>
+                                <div>
+                                    <iframe class="video__youtube img-fluid p-1 border" src="https://www.youtube.com/embed/VFBsMXCuVss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="row text-center text-lg-start bg-dark text-light ">
+                    <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
+                        <div class="me-5 d-none d-lg-block">
+                            <span>Mantente en contacto con nosotros a través de nuestras redes sociales:</span>
+                        </div>
+                        <div>
+                            <a href="#" class="me-4 text-reset color__moro--a"><i class="bi bi-linkedin fs-6"></i></a>
+                            <a href="#" class="me-4 text-reset color__moro--a"><i class="bi bi-facebook fs-6"></i></a>
+                            <a href="#" class="me-4 text-reset color__moro--a"><i class="bi bi-youtube fs-6"></i></a>
+                            <a href="#" class="me-4 text-reset color__moro--a"><i class="bi bi-instagram fs-6"></i></a>
+                            <a href="#" class="me-4 text-reset color__moro--a"><i class="bi bi-whatsapp fs-6"></i></a>
+                        </div>
+
+                    </section>
+                    <section class="">
+                        <div class="container text-center text-md-start mt-5">
+                            <div class="row mt-3">
+                                <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-4">
+                                    <a class="text-reset text-decoration-none" href="#">
+                                        <img class="img__logo--footer" src="./img/logomoro.svg" alt="logo">
+                                    </a><br><br>
+                                    <p>
+                                        <div class="sub-description">
+                                            Somos una empresa constructora que busca aportar al crecimiento y desarrollo de la sociedad. Contamos con las
+                                            certificaciones:<br><br>
+                                            - ISO 9001:2015<br>
+                                            - ISO 14001:2015<br>
+                                            - OHSAS 18001:2007<br>
+                                            - ELOT ISO 37001:2017 (ISO 37001:2016)<br>
+                                            <br>
+                                            <a target="_blank" href="https://drive.google.com/file/d/1c2OqerEMTM-D_zCBYTvklLNzrVjrxfoP/view?usp=sharing">
+                                                <img class="img__logo--eurocert"  alt="logoeurocert" src="./img/logoeurocert.svg">
+                                            </a>
+                                        </div>
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                                    <h6 class="text-uppercase fw-bold mb-4">Servicios</h6>
+                                    <p><a href="#" class="text-reset">Pavimentación</a></p>
+                                    <p><a href="#" class="text-reset">Obras Viales</a></p>
+                                    <p><a href="#" class="text-reset">Alquiler de Maquinária</a></p>
+                                    <p><a href="#" class="text-reset">Edificaciones</a></p>
+                                </div>
+                                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                    <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                                    <p><i class="bi bi-house-door-fill fs-6"></i> Av. Mariátegui 446 int 201, Jesús María</p>
+                                    <p><i class="bi bi-mailbox2 fs-6"></i> ZIP Code: 15072</p>
+                                    <p><i class="bi bi-envelope-at-fill fs-6"></i> contacto@moro.com.pe</p>
+                                    <p><i class="bi bi-telephone-fill fs-6"></i> +(511) 888-0551</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="text-center p-4 derechos_autor">
+                        © 2022 Todos los derechos reservados. Diseñado por
+                        <a class="text-reset fw-bold text-decoration-none color__moro--a" href="#">CJJC</a>
+                    </div>
+                </div>
+
             </div>
-
-        </div>
-    </footer>
-
+        </footer>
+    <!-- </div> -->
 
 
     <!-- BOOTSTRAP JS -->
