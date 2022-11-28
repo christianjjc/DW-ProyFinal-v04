@@ -56,7 +56,7 @@
     }
 }
 
-/* 
+
   @media (prefers-reduced-motion) {
     .js-scroll {
       opacity: 1;
@@ -64,4 +64,4 @@
     .scrolled {
       animation: none !important;
     }
-  } */
+  }
