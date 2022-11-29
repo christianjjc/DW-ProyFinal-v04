@@ -4,7 +4,6 @@
 :root{
     --glb-brand-color01:#cf8827;
     --glb-brand-color01-opacity:rgba(207, 134, 39, 0.75);
-    /* --glb-brand-color01:rgb(207,133,39); */
     --glb-font-family:'Roboto', sans-serif;
     --glb-font-color-light:white;
     --glb-font-color-dark:black  ;
@@ -12,10 +11,8 @@
     --glb-font-size:14px;
 }
 
-html{
-    scroll-behavior: smooth;
-}
- 
+html{scroll-behavior: smooth;}
+
 body{
     font-family: var(--glb-font-family);
     color:var(--glb-font-color-dark);
@@ -24,16 +21,9 @@ body{
 }
 
 
-#section__servicios {
-    /* scroll-padding-top: 100px; */
-    scroll-margin-top: 130px;
-  }
-
-#section__proyectos {
-    /*scroll-padding-top: 100px;*/
-    scroll-margin-top: 130px;
-  }
-
+#section__servicios{scroll-margin-top: 130px;}
+#section__proyectos{scroll-margin-top: 130px;}
+#section__equipos{scroll-margin-top: 130px;}
 
 #grid__equipos__contenedor{
     display: grid;
@@ -48,60 +38,23 @@ body{
     height: 100%;
 }
 
-.img__logo{
-    height: 40px;
-}
-
-.img__logo--footer{
-    height: 25px;
-}
-
-.img__logo--eurocert{
-    width:100px;
-}
-
-.img-relacionados{
-    width: 100%;
-}
-
-
-.no-padding {
-    padding: 0;
-  }
-
-.header, .footer{
-    z-index: 5;
-}
+.img__logo{height: 40px;}
+.img__logo--footer{height: 25px;}
+.img__logo--eurocert{width:100px;}
+.img-relacionados{width: 100%;}
+.no-padding{padding: 0;}
+.header, .footer{z-index: 5;}
 
 .video__youtube{
     width: 100%;
     height: 350px;
 }
 
-.color__moro--bg{
-    background-color: var(--glb-brand-color01);
-}
-
-.color__moro--border{
-    border-color: var(--glb-brand-color01);
-}
-
-.color__moro--a:hover  {
-    color: var(--glb-brand-color01) !important ;
-}
-
-.color__moro--btnhover:hover  {
-    background-color: var(--glb-brand-color01-opacity);
-}
-
-.derechos_autor{
-    background-color:var(--glb-font-color-footer);
-}
-
-
-
-
-
+.color__moro--bg{background-color: var(--glb-brand-color01);}
+.color__moro--border{border-color: var(--glb-brand-color01);}
+.color__moro--a:hover{color: var(--glb-brand-color01) !important;}
+.color__moro--btnhover:hover{background-color: var(--glb-brand-color01-opacity);}
+.derechos_autor{background-color:var(--glb-font-color-footer);}
 
 
 /* ************************* */
@@ -123,15 +76,9 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    #section__servicios {
-        /* scroll-padding-top: 100px; */
-        scroll-margin-top: 300px;
-      }
-    
-    #section__proyectos {
-        /*scroll-padding-top: 100px;*/
-        scroll-margin-top: 300px;
-      }
+    #section__servicios{scroll-margin-top: 300px;}
+    #section__proyectos{scroll-margin-top: 300px;}
+    #section__equipos{scroll-margin-top: 300px;}
     
 	#grid__equipos__contenedor {
             grid-template-columns:1fr;
