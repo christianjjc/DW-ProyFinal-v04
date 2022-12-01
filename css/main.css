@@ -4,6 +4,7 @@
 :root{
     --glb-brand-color01:#cf8827;
     --glb-brand-color01-opacity:rgba(207, 134, 39, 0.75);
+    --glb-brand-color-negro-opaco: rgb(0,0,0,0.1);
     --glb-font-family:'Roboto', sans-serif;
     --glb-font-color-light:white;
     --glb-font-color-dark:black;
@@ -76,8 +77,10 @@ body{
 .contenedor__contacto{
     display: grid;
     height: 100%;
-    grid-template-columns: 50% 50%;
+    /* grid-template-columns: 50% 50%; */
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: 10% auto 10%;
+    column-gap: 10px;
     grid-template-areas:
     "foto__info titulo__form__contacto"
     "foto__info form__contacto"
@@ -99,12 +102,13 @@ body{
 }
 
 .area__titulo__form__contacto{
-    grid-area:titulo__form__contacto;
+    grid-area:titulo__form__contacto;   
 }
 
 .area__form__contacto{
     grid-area:form__contacto;
     height: 600px;
+    background-color:var(--glb-brand-color-negro-opaco);
 }
 
 .area__boton__form{
@@ -137,8 +141,8 @@ body{
     background: -webkit-linear-gradient(to right, #fbb759, #cf8827);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, #fbb759, #cf8827); 
+    box-shadow:-1px -1px 5px 1px rgb(134, 134, 134);
 }
-
 
 .flex__centrado{
     display: flex;
@@ -152,19 +156,12 @@ body{
 }
 
 .con__sombra{
-    box-shadow:2px 2px 5px 1px rgb(134, 134, 134);
+    box-shadow:1px 1px 5px 1px rgb(134, 134, 134);
 }
 
-
-
-
-
-
-
-
-
-
-
+#txtMensaje{
+    resize: none;
+}
 
 
 /* ******************************** */
@@ -203,5 +200,16 @@ body{
 	#grid__equipos__contenedor {
         grid-template-columns:1fr;
         grid-template-rows: repeat(4, 1fr);
+    }
+
+    .contenedor__contacto{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1,1fr);
+        row-gap: 10px;
+        grid-template-areas:
+        "foto__info"
+        "titulo__form__contacto"
+        "form__contacto"
+        "boton_form";
     }
 }
