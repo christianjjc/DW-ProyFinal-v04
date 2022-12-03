@@ -1,13 +1,12 @@
+/*-------------------*/
+/* Start ANIMATE SCSS*/
+/*                   */
+
 .js-scroll {opacity: 0; transition: opacity 500ms;}
-
 .js-scroll.scrolled {opacity: 1;}
-
 .scrolled.fade-in {animation: fade-in 1s ease-in-out both;}
-
 .scrolled.fade-in-bottom {animation: fade-in-bottom 1s ease-in-out both;}
-
 .scrolled.slide-left {animation: slide-in-left 1s ease-in-out both;}
-
 .scrolled.slide-right {animation: slide-in-right 1s ease-in-out both;}
 
 @keyframes slide-in-left {
@@ -65,3 +64,9 @@
       animation: none !important;
     }
   }
+
+/*                   */
+/* End ANIMATE SCSS */
+/*-------------------*/
+
+

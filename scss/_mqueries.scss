@@ -1,0 +1,48 @@
+
+/* ******************************** */
+/* @ MEDIA QUERIES */
+/* ******************************** */
+
+/* Pantallas sm a md */
+@media screen and (max-width: 767px) {
+    #section__servicios, #section__proyectos, #section__equipos{
+        scroll-margin-top:$glb-scroll-vwp-sm;
+    }
+}
+
+/* Pantallas xl */
+@media screen and (min-width: 768px) {
+	#grid__equipos__contenedor {
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    .dbox {
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .img__enlace:hover{
+        transform: scale(1.01);
+        /* transform: scale(1.01) rotate(-1deg); */
+    }
+    .contenedor__contacto{
+        /* grid-template-columns: 50% 50%; */
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 10% auto 10%;
+        column-gap: 10px;
+        grid-template-areas:
+        "foto__info titulo__form__contacto"
+        "foto__info form__contacto"
+        "foto__info boton_form";
+    }
+
+}
+
+/* Pantallas xxl */
+@media screen and (min-width: 992px) {
+	#grid__equipos__contenedor {
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows:1fr;
+        grid-gap: 5px;
+    }
+}
