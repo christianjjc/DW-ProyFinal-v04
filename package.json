@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/custom.scss css/custom.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "mini-css": "purgecss --css css/custom.css --content index.html contacto.html -o css/mini.css"
+    "mini-css": "purgecss --css css/custom.css --content index.html contacto.html nosotros.html -o css/mini.css"
 
   },
   "repository": {
