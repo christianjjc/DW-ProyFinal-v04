@@ -29,10 +29,11 @@ body{
 
 #grid__equipos__contenedor{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr;
-    grid-gap: 5px;
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
 }
+
 
 .grid__celda{
     width: 100%;
@@ -45,6 +46,7 @@ body{
 .img-relacionados{width: 100%;}
 .no-padding{padding: 0;}
 .pos__adelante {z-index: 5;}
+
 
 .video__youtube{
     width: 100%;
@@ -77,14 +79,14 @@ body{
 .contenedor__contacto{
     display: grid;
     height: 100%;
-    /* grid-template-columns: 50% 50%; */
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 10% auto 10%;
-    column-gap: 10px;
+     grid-template-columns: 1fr;
+    grid-template-rows: repeat(1,1fr);
+    row-gap: 10px;
     grid-template-areas:
-    "foto__info titulo__form__contacto"
-    "foto__info form__contacto"
-    "foto__info boton_form";
+    "foto__info"
+    "titulo__form__contacto"
+    "form__contacto"
+    "boton_form";
 }
 
 .conenedor__texto__contacto{
@@ -168,17 +170,16 @@ body{
 /* @ MEDIA QUERIES */
 /* ******************************** */
 
-
-/* Pantallas xxl */
-@media (max-width: 1200px) and (min-width: 992px) {
-	#grid__equipos__contenedor {
-        grid-template-columns:1fr 1fr;
-        grid-template-rows: repeat(2, 1fr);
+/* Pantallas sm a md */
+@media screen and (max-width: 767px) {
+    #section__servicios, #section__proyectos, #section__equipos{
+        scroll-margin-top: var(--glb-scroll-vwp-sm);
     }
+
 }
 
 /* Pantallas xl */
-@media (max-width: 992px) and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 	#grid__equipos__contenedor {
         grid-template-columns:1fr 1fr;
         grid-template-rows: repeat(2, 1fr);
@@ -188,28 +189,31 @@ body{
         margin-bottom: 0;
         padding: 0;
     }
-}
 
-
-/* Pantallas sm a md */
-@media screen and (max-width: 768px) {
-    #section__servicios, #section__proyectos, #section__equipos{
-        scroll-margin-top: var(--glb-scroll-vwp-sm);
-    }
-    
-	#grid__equipos__contenedor {
-        grid-template-columns:1fr;
-        grid-template-rows: repeat(4, 1fr);
+    .img__enlace:hover{
+        transform: scale(1.01);
+        /* transform: scale(1.01) rotate(-1deg); */
     }
 
     .contenedor__contacto{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(1,1fr);
-        row-gap: 10px;
+        /* grid-template-columns: 50% 50%; */
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 10% auto 10%;
+        column-gap: 10px;
         grid-template-areas:
-        "foto__info"
-        "titulo__form__contacto"
-        "form__contacto"
-        "boton_form";
+        "foto__info titulo__form__contacto"
+        "foto__info form__contacto"
+        "foto__info boton_form";
+    }
+
+}
+
+/* Pantallas xxl */
+@media screen and (min-width: 992px) {
+	#grid__equipos__contenedor {
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows:1fr;
+        grid-gap: 5px;
     }
 }
+

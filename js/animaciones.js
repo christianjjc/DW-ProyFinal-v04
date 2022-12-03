@@ -34,9 +34,11 @@ const handleScrollAnimation = () => {
     })
 }
 
+
 //initialize throttleTimer as false
 let throttleTimer = false;
-const throttle = (callback, time) => {
+//const throttle = (callback, time) => {  *** AQUI REPARAMOS EL ERROR DEL CALLBACK DANDOLE UN PARAMETRO **
+const throttle = (callback = () => {}, time) => {
     //don't run the function while throttle timer is true
     if (throttleTimer) return;
     //first set throttle timer to true so the function doesn't run
