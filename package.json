@@ -8,7 +8,6 @@
     "build-css": "node-sass --include-path scss scss/custom.scss css/custom.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "mini-css": "purgecss --css css/custom.css --content index.html contacto.html nosotros.html -o css/mini.css"
-
   },
   "repository": {
     "type": "git",
@@ -25,6 +24,7 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3"
   }
 }
