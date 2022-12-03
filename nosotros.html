@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - MORO</title>
+    <title>Nosotros - MORO</title>
 
-    <!-- CUSTOM LINKs -->
+    <!-- CUSTOM LINKs --->
     <link rel="icon" type="image/svg" href="./img/favicon.svg" sizes="16x16"> 
     <link rel="icon" type="image/svg" href="./img/favicon.svg" sizes="32x32">
     <link rel="stylesheet" href="./css/mini.css">
-    
 </head>
 <body>
     <header class="header pos__adelante sticky-top opacity-full bg-dark text-light">
@@ -50,108 +49,11 @@
             </div>
         </div>
     </header>
-    <main class="main">
-        <div class="container py-3">
-            <div class="contenedor__contacto text-secondary">
-                <div class="area_foto__info flex__centrado m-1 border con__sombra">
-                    <div class="conenedor__texto__contacto">
-                        <!-- Fila Dirección -->
-                        <div class="row fs-5 pt-1 px-3">
-                            <div class="col-1">
-                                <i class="bi bi-house-door-fill"></i>
-                            </div>
-                            <div class="col-11">
-                                <span class="fs-5"></i>Dirección:</span>
-                            </div>
-                        </div>
-                        <div class="row fs-5 pt-1 px-3">
-                            <div class="col-1"></div>
-                            <div class="col-11 fs-6">
-                                <p class="color__moro__texto"> Av. Mariátegui 446 int 201, Jesús María, Lima - Perú</p>
-                            </div>
-                        </div>
-                        <!-- Fila Teléfono -->
-                        <div class="row fs-5 pt-1 px-3">
-                            <div class="col-1">
-                                <i class="bi bi-telephone-fill fs-6"></i>
-                            </div>
-                            <div class="col-11">
-                                <span class="fs-5"></i>Llámanos:</span>
-                            </div>
-                        </div>
-                        <div class="row fs-5 pt-1 px-3">
-                            <div class="col-1"></div>
-                            <div class="col-11 fs-6">
-                                <p class="color__moro__texto">(511) 998-5521</p>
-                            </div>
-                        </div>
-                        <!-- Fila Correo -->
-                        <div class="row fs-5 pt-1 px-3">
-                            <div class="col-1">
-                                <i class="bi bi-envelope-at-fill fs-6"></i>
-                            </div>
-                            <div class="col-11">
-                                <span class="fs-5"></i>Escríbenos:</span>
-                            </div>
-                        </div>
-                        <div class="row fs-5 pt-1 px-3">
-                            <div class="col-1"></div>
-                            <div class="col-11 fs-6">
-                                <p class="color__moro__texto">contacto@moro.com.pe</p>
-                            </div>
-                        </div>
-                        <!-- Fila ZIP -->
-                        <div class="row fs-5 pt-1 px-3">
-                            <div class="col-1">
-                                <i class="bi bi-mailbox2 fs-6"></i>
-                            </div>
-                            <div class="col-11">
-                                <span class="fs-5"></i>Ubícanos:</span>
-                            </div>
-                        </div>
-                        <div class="row fs-5 pt-1 px-3">
-                            <div class=" col-1"></div>
-                            <div class="col-11 fs-6">
-                                <p class="color__moro__texto">ZIP Code: 15072</p>
-                            </div>
-                        </div>
-                        <div class="row fs-5 pt-1 px-3">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.525993268443!2d-77.04237108376384!3d-12.076100291447798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8f1ecb99fc7%3A0x56313bc26fdfe6ff!2sMORO%20SRL!5e0!3m2!1ses-419!2spe!4v1669850307176!5m2!1ses-419!2spe" class="mapa__ubicacion" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div class="area__titulo__form__contacto flex__centrado">
-                    <span class="h3">Envíanos un Mensaje</span>
-                </div>
-                <div class="area__form__contacto flex__centrado flex__centrado--form fs-5 con__sombra">
-                    <div class="w-75">
-                        <form  id="frmContacto"  action="" method="post">
-                            <fieldset>
-                                <div>
-                                    <label for="txtNombre" class="form-label fw-bold">Nombre:</label>
-                                    <input type="text" id="txtNombre" name="txtNombre" class="form-control" placeholder="Nombre y apellido...">
-                                </div>
-                                <div class="mt-3">
-                                    <label for="txtCorreo" class="form-label fw-bold">Correo Electrónico</label>
-                                    <input type="email" class="form-control" id="txtCorreo" name="txtCorreo" placeholder="nombre@ejemplo.com">
-                                </div>
-                                <div class="mt-3">
-                                    <label for="txtTelefono" class="form-label fw-bold">Teléfono:</label>
-                                    <input type="text" id="txtTelefono" name="txtTelefono" class="form-control" placeholder="Número de teléfono...">
-                                </div>
-                                <div class="mt-3">
-                                    <label for="txtMensaje" class="form-label fw-bold">Mensaje</label>
-                                    <textarea class="form-control" id="txtMensaje" name="txtMensaje" rows="8"></textarea>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                </div>
-                <div class="area__boton__form flex__centrado">
-                    <!-- <button type="button" class="boton__formulario con__sombra" onclick="document.getElementById('frmContacto').submit();" >Enviar</button> -->
-                    <button type="button" class="boton__formulario con__sombra">Enviar</button>
-                </div>
-            </div>
+    <main>
+        <div class="container">
+            <h1>Página Nosotros</h1>
+            <h5>Aquí se colocará la historia de la empresa con imagenes que aparecen.</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero quis neque, laudantium beatae animi et provident eum dolore iusto corrupti corporis placeat maxime repellendus unde iste excepturi magnam, veritatis, deserunt exercitationem dolorum voluptates obcaecati odio. Sunt at natus laudantium, officia eos unde sequi obcaecati dicta doloremque ut ea suscipit omnis nihil ab esse, molestiae amet dignissimos voluptatum quod possimus, saepe ullam minima eius! Mollitia consequuntur quis corrupti autem dolorum hic id aperiam dignissimos reiciendis. Harum quisquam maxime exercitationem sit commodi nemo? Debitis ab earum ratione veniam sed suscipit deleniti! Amet, voluptatem? In mollitia similique natus neque, consequuntur maiores laudantium ipsa?</p>
         </div>
     </main>
     <footer class="footer bg-dark">
@@ -216,9 +118,10 @@
 
         </div>
     </footer>
+
+
     <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
     <!-- CUSTOM JS -->
     <script src="./JS/animaciones.js"></script>
 </body>
