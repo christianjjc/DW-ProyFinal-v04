@@ -1,21 +1,23 @@
+JSon con el PurgeCSS
+
+################################################
+
 {
   "name": "dw-pf-v03",
   "version": "1.0.0",
-  "description": "Proyecto Final DW - CODERHOUSE - se desarrolló la página de la empresa en la que trabajo.",
+  "description": "Proyecto Final DW v03",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css1": "node-sass --include-path scss scss/custom.scss css/custom.css",
-    "build-css2": "node-sass --include-path scss scss/boots52c.scss css/boots52c.css",
-    "watch-css1": "nodemon -e scss -x \"npm run build-css1\"",
-    "watch-css2": "nodemon -e scss -x \"npm run build-css2\"",
-    "mini-css": "purgecss --css css/custom.css --content index.html contacto.html nosotros.html -o css/mini.css"
+    "build-css": "node-sass --include-path scss scss/custom.scss css/custom.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+     "mini-css": "purgecss --css css/custom.css --content index.html contacto.html nosotros.html -o css/mini.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/christianjjc/DW-ProyFinal-v03.git"
   },
-  "author": "Christian John Jiménez Calvo",
+  "author": "christian jimenez calvo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/christianjjc/DW-ProyFinal-v03/issues"
@@ -30,3 +32,6 @@
     "bootstrap": "^5.2.3"
   }
 }
+
+
+#######################################################
