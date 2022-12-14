@@ -2,45 +2,94 @@
 /* Start ETIQUETAS PRINCIPALES */
 /*                             */
 
-html{scroll-behavior: smooth;}
+html {
+    scroll-behavior: smooth;
+}
 
 
-body{
-    font-family:$glb-font-family;
-    color:$glb-font-color-dark;
-    font-size:$glb-font-size;
+body {
+    font-family: $glb-font-family;
+    color: $glb-font-color-dark;
+    font-size: $glb-font-size;
     font-weight: 400;
 }
 
 
-#section__servicios, #section__proyectos, #section__equipos{
+#section__servicios,
+#section__proyectos,
+#section__equipos {
     scroll-margin-top: $glb-scroll-vwp-xl;
 }
 
-.img__logo{height: 40px;}
-.img__logo--footer{height: 25px;}
-.img__logo--eurocert{width:100px;}
-.img-relacionados{width: 100%;}
-.no-padding{padding: 0;}
-.pos__adelante {z-index: 5;}
+.img__logo {
+    height: 40px;
+}
 
-.video__youtube{
+.img__logo--footer {
+    height: 25px;
+}
+
+.img__logo--eurocert {
+    width: 100px;
+}
+
+.img-relacionados {
+    width: 100%;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.pos__adelante {
+    z-index: 5;
+}
+
+.video__youtube {
     width: 100%;
     height: 350px;
 }
 
 
-.mapa__ubicacion{
+.mapa__ubicacion {
     width: 100%;
     height: 250px;
 }
 
-.color__moro__texto{color:$glb-brand-color01;}
-.color__moro--bg{background-color:$glb-brand-color01;}
-.color__moro--border{border-color:$glb-brand-color01;}
-.color__moro--a:hover{color:$glb-brand-color01 !important;}
-.color__moro--btnhover:hover{background-color:$glb-brand-color01-opacity;}
-.derechos_autor{background-color:$glb-font-color-footer;}
+.color__moro__texto {
+    color: $glb-brand-color01;
+}
+
+.color__moro--bg {
+    background-color: $glb-brand-color01;
+}
+
+.color__moro--border {
+    border-color: $glb-brand-color01;
+}
+
+.color__moro--a:hover {
+    color: $glb-brand-color01 !important;
+}
+
+.color__moro--btnhover:hover {
+    background-color: $glb-brand-color01-opacity;
+}
+
+.derechos_autor {
+    background-color: $glb-font-color-footer;
+}
+
+
+.line_clamp3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+
+
 
 /*                             */
 /* End ETIQUETAS PRINCIPALES */
