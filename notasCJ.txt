@@ -35,3 +35,16 @@ JSon con el PurgeCSS
 
 
 #######################################################
+
+opacidad al 50%
+
+/* .nosotros__portada {
+    background-image: linear-gradient(rgba(0, 0, 0, $opacidad-a-negro), rgba(0, 0, 0, $opacidad-a-negro)), url("../img/big/imgbig07.jpg");
+
+} */
+
+#######################################################
+
+
+
+

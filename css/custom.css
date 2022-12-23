@@ -192,6 +192,25 @@ body {
     grid-template-rows: 1fr;
     grid-gap: 5px; } }
 
+/* ******************************** */
+/* PAGINA NOSOTROS */
+/* ******************************** */
+.mensaje__empresa--titulo {
+  height: 280px;
+  background-color: #cf8827; }
+
+.mensaje__empresa--cuerpo {
+  height: 200px;
+  padding: 5px 5px 0 5px; }
+
+.img__mensaje {
+  width: 100%;
+  height: 200px; }
+
+.svg__nosotros {
+  width: 160px;
+  height: 160px; }
+
 /*-------------------*/
 /* Start ANIMATE SCSS*/
 /*                   */
