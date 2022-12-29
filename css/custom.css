@@ -164,7 +164,9 @@ body {
 /* ******************************** */
 /* Pantallas sm a md */
 @media screen and (max-width: 767px) {
-  #section__servicios, #section__proyectos, #section__equipos {
+  #section__servicios,
+  #section__proyectos,
+  #section__equipos {
     scroll-margin-top: 285px; } }
 
 /* Pantallas xl */
@@ -195,21 +197,55 @@ body {
 /* ******************************** */
 /* PAGINA NOSOTROS */
 /* ******************************** */
+.tarjeta__nosotros {
+  background-color: #e9ecef; }
+
 .mensaje__empresa--titulo {
-  height: 280px;
+  height: 250px;
   background-color: #cf8827; }
 
 .mensaje__empresa--cuerpo {
-  height: 200px;
-  padding: 5px 5px 0 5px; }
+  height: 300px;
+  padding: 30px 30px;
+  background-color: #6c757d;
+  color: white; }
 
 .img__mensaje {
   width: 100%;
-  height: 200px; }
+  height: 140px; }
 
 .svg__nosotros {
-  width: 160px;
-  height: 160px; }
+  width: 120px;
+  height: 120px;
+  fill: white; }
+
+.brevision {
+  border: 1px solid red; }
+
+.us__shape {
+  background-image: url(../img/layout/bgnosotros.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  background-position: left bottom;
+  position: relative; }
+
+.img__shape, .img__shape--1, .img__shape--2 {
+  position: absolute;
+  width: 700px;
+  height: 400px; }
+  .img__shape--1 {
+    top: 100px;
+    left: 100px; }
+  .img__shape--2 {
+    top: 40%;
+    left: 35%; }
+
+.img__shape__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; }
 
 /*-------------------*/
 /* Start ANIMATE SCSS*/
