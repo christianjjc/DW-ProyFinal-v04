@@ -167,7 +167,9 @@ body {
   #section__servicios,
   #section__proyectos,
   #section__equipos {
-    scroll-margin-top: 285px; } }
+    scroll-margin-top: 285px; }
+  .mensaje__empresa--cuerpo {
+    height: 600px; } }
 
 /* Pantallas xl */
 @media screen and (min-width: 768px) {
@@ -205,7 +207,7 @@ body {
   background-color: #cf8827; }
 
 .mensaje__empresa--cuerpo {
-  height: 300px;
+  height: 350px;
   padding: 30px 30px;
   background-color: #6c757d;
   color: white; }
