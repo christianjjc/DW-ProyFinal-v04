@@ -46,5 +46,30 @@ opacidad al 50%
 #######################################################
 
 
+instalar NODE Y nodemon
+
+REVISAR NODE
+REVISAR NPM
+
+npm init  -> ENTER
+
+
+luego instalamos nodemon para que compile
+
+npm install node-sass nodemon
+
+
+
+
+    "build-css1": "node-sass --include-path scss scss/custom.scss css/custom.css",
+    "build-css2": "node-sass --include-path scss scss/boots52c.scss css/boots52c.css",
+    "watch-css1": "nodemon -e scss -x \"npm run build-css1\"",
+    "watch-css2": "nodemon -e scss -x \"npm run build-css2\"",
+    "mini-css": "purgecss --css css/custom.css --content index.html contacto.html nosotros.html -o css/mini.css"
+
+
+
+
+
 
 
