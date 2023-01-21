@@ -169,7 +169,9 @@ body {
   #section__equipos {
     scroll-margin-top: 285px; }
   .mensaje__empresa--cuerpo {
-    height: 600px; } }
+    height: 600px; }
+  .fram-servicios {
+    height: 300px; } }
 
 /* Pantallas xl */
 @media screen and (min-width: 768px) {
@@ -187,7 +189,9 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 10% auto 10%;
     column-gap: 10px;
-    grid-template-areas: "foto__info titulo__form__contacto" "foto__info form__contacto" "foto__info boton_form"; } }
+    grid-template-areas: "foto__info titulo__form__contacto" "foto__info form__contacto" "foto__info boton_form"; }
+  .fram-servicios {
+    height: 600px; } }
 
 /* Pantallas xxl */
 @media screen and (min-width: 992px) {
@@ -310,3 +314,6 @@ body {
 /*                   */
 /* End ANIMATE SCSS */
 /*-------------------*/
+.fram-servicios {
+  border: 0;
+  width: 100%; }

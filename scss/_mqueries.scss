@@ -12,7 +12,14 @@
     .mensaje__empresa--cuerpo{
         height: 600px;
     }
+
+    .fram-servicios{
+        height: 300px;
+    }
 }
+
+
+
 
 /* Pantallas xl */
 @media screen and (min-width: 768px) {
@@ -39,7 +46,9 @@
         "foto__info form__contacto"
         "foto__info boton_form";
     }
-
+    .fram-servicios{
+        height: 600px;
+    }
 }
 
 /* Pantallas xxl */
