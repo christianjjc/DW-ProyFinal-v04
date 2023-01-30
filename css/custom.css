@@ -162,8 +162,8 @@ body {
 /* ******************************** */
 /* @ MEDIA QUERIES */
 /* ******************************** */
-/* Pantallas sm a md */
-@media screen and (max-width: 767px) {
+/* Pantallas mini a sm */
+@media screen and (max-width: 576px) {
   #section__servicios,
   #section__proyectos,
   #section__equipos {
@@ -172,6 +172,17 @@ body {
     height: 600px; }
   .fram-servicios {
     height: 300px; } }
+
+/* Pantallas sm a md */
+@media screen and (min-width: 578px) {
+  #section__servicios,
+  #section__proyectos,
+  #section__equipos {
+    scroll-margin-top: 110px; }
+  .mensaje__empresa--cuerpo {
+    height: 600px; }
+  .fram-servicios {
+    height: 400px; } }
 
 /* Pantallas xl */
 @media screen and (min-width: 768px) {
@@ -191,7 +202,7 @@ body {
     column-gap: 10px;
     grid-template-areas: "foto__info titulo__form__contacto" "foto__info form__contacto" "foto__info boton_form"; }
   .fram-servicios {
-    height: 600px; } }
+    height: 500px; } }
 
 /* Pantallas xxl */
 @media screen and (min-width: 992px) {
@@ -317,3 +328,8 @@ body {
 .fram-servicios {
   border: 0;
   width: 100%; }
+
+.serivcios__fotos {
+  position: fixed;
+  top: 20px;
+  left: 50%; }

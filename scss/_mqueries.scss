@@ -3,9 +3,11 @@
 /* @ MEDIA QUERIES */
 /* ******************************** */
 
-/* Pantallas sm a md */
-@media screen and (max-width: 767px) {
-    #section__servicios, #section__proyectos, #section__equipos{
+/* Pantallas mini a sm */
+@media screen and (max-width: 576px) {
+    #section__servicios,
+    #section__proyectos,
+    #section__equipos{
         scroll-margin-top:$glb-scroll-vwp-sm;
     }
 
@@ -19,6 +21,24 @@
 }
 
 
+
+/* Pantallas sm a md */
+@media screen and (min-width: 578px) {
+    #section__servicios,
+    #section__proyectos,
+    #section__equipos{
+        scroll-margin-top: $glb-scroll-vwp-xl;
+    }
+
+    .mensaje__empresa--cuerpo{
+        height: 600px;
+    }
+
+    .fram-servicios{
+        height: 400px;
+    }
+
+}
 
 
 /* Pantallas xl */
@@ -47,7 +67,7 @@
         "foto__info boton_form";
     }
     .fram-servicios{
-        height: 600px;
+        height: 500px;
     }
 }
 
